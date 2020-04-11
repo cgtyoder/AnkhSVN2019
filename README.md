@@ -1,3 +1,11 @@
+# AnkhSVN2019_MEF
+
+This is a fork of AnkhSVN2019 in order to attempt to migrate the project from the AnkhService architcture to an architecture based on MEF components.
+
+AnkhSVN is built with a service architecture based on the AnkhService class. I find this structure very difficult to understand which makes it difficult to maintain the project. My feeling is, that it could be radically simplified by using MEF components.
+
+However, this is pretty much an all or nothing change, and it might not work. Alternatively, it might work, but be just as overblown and complicated as the original AnkhService architecture.
+
 # AnkhSVN2019
 
 AnkhSVN2019 is a fork of the Github project  
